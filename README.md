@@ -1,3 +1,5 @@
+<img width="1895" height="967" alt="image" src="https://github.com/user-attachments/assets/a511598d-a746-4242-9551-f184a41f6804" />
+
 # Dual Analytics
 
 A self-hosted customer behaviour analytics tool for **any two establishments** run together (restaurant + gym, café + salon, bar + cinema...). It merges sales and visit data per customer so you can see who uses both, who is drifting away, and where revenue comes from.
