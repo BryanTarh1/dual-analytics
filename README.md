@@ -5,10 +5,10 @@ A self-hosted customer behaviour analytics tool for **any two establishments** r
 Stack: PHP 8 (PDO), MariaDB/MySQL, vanilla JS, Chart.js. Runs on XAMPP/WAMP/LAMP.
 
 ## Install
-1. Copy this folder to `htdocs` (XAMPP) or your web root. Start Apache and MariaDB.
-2. Copy `config.example.php` to `config.php`, then edit it: database login, currency, and your two establishments.
+1. Copy this folder to `htdocs` and start Apache and MySQL.
+2. Copy `config.example.php` to `config.php` and edit it: database user, password, port (XAMPP default is 3306), currency, and your two establishments.
 3. Run `php setup.php --demo` (or open `setup.php?demo=1`). Drop `--demo` for an empty install.
-4. Open `index.html`. Sign in with `admin` / `admin123`, then change the password. Delete `setup.php`.
+4. Open `index.html`, sign in with `admin` / `admin123`, change the password, and delete `setup.php`.
 
 ## Make it yours
 In `config.php`, the `venues` list defines both establishments: their name, check-in activities and POS items with prices. Nothing else in the code mentions restaurants or gyms.
